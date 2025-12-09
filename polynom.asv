@@ -1,0 +1,6 @@
+function y=polynom(x,a)
+y=0;
+n=length(a)-1;
+for i = 1:length(a)
+    y = y + a(i) * x.^(n+i-1);
+end
